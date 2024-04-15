@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="creators" Type="Folder">
 			<Item Name="sprite" Type="Folder">
+				<Item Name="filter_color.vi" Type="VI" URL="../data_type/pixel/filter_color.vi"/>
 				<Item Name="sprite.vi" Type="VI" URL="../creator/sprite/sprite.vi"/>
 			</Item>
 		</Item>
@@ -23,6 +24,7 @@
 		</Item>
 		<Item Name="game" Type="Folder">
 			<Item Name="render" Type="Folder">
+				<Item Name="multiply_size_by.vi" Type="VI" URL="../game/render/multiply_size_by.vi"/>
 				<Item Name="render.vi" Type="VI" URL="../data_type/pixel/render.vi"/>
 			</Item>
 		</Item>
