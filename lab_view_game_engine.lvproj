@@ -11,7 +11,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="creators" Type="Folder">
+			<Item Name="sprite" Type="Folder">
+				<Item Name="sprite.vi" Type="VI" URL="../creator/sprite/sprite.vi"/>
+			</Item>
+		</Item>
+		<Item Name="data-type" Type="Folder">
+			<Item Name="pixel" Type="Folder">
+				<Item Name="pixel.ctl" Type="VI" URL="../data_type/pixel/pixel.ctl"/>
+			</Item>
+		</Item>
+		<Item Name="game" Type="Folder">
+			<Item Name="render" Type="Folder">
+				<Item Name="render.vi" Type="VI" URL="../data_type/pixel/render.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
